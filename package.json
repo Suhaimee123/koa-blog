@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node src/app.js",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
   },
   "keywords": [],
   "author": "",
